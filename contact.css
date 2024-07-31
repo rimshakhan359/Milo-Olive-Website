@@ -1,0 +1,135 @@
+body {
+  background-color: #feece0;
+  padding: 10px;
+}
+
+#contact h1 {
+  color: #914f1e;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  /* border: 10px solid #914f1e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px; */
+}
+/* Location image */
+
+#map img {
+  height: 100px;
+}
+/* --------------------------------- */
+
+/* Location Explanation */
+
+#loc h3 {
+  color: #914f1e;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/* ---------------------------- */
+
+/* Time image */
+#clock img {
+  height: 100px;
+}
+
+/* ------------------------------------ */
+
+/* hours */
+#hours h3 {
+  color: #914f1e;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+/* ------------------------ */
+
+/* Call image */
+
+#callImg img {
+  height: 100px;
+}
+
+/* ------------------ */
+
+/* Number */
+
+#number h3 {
+  color: #914f1e;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-align-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.ml-50 {
+  margin-left: 50%;
+}
+
+button {
+  padding: 6px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 90px;
+  border: 1px solid gray;
+}
+
+button:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+#nav-btns > a {
+  text-decoration: none;
+  padding: 5px;
+  margin-right: 5px;
+  color: #914f1e;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#nav-btns a:hover {
+  cursor: pointer;
+  border: 1px solid #914f1e;
+  border-radius: 5px;
+  background-color: antiquewhite;
+}
